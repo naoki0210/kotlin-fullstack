@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: todoApp
+  h2:
+    console:
+      enabled: true
+
+
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/drink
+    username: postgres
+    password: postgres@123
+    driver-class-name: org.postgresql.Driver
+
+#
+
+
+
+  jpa:
+    hibernate:
+       ddl-auto: update
